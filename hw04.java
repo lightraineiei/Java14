@@ -4,7 +4,7 @@ public class hw04
 	public static void mani(String args[]) throws IOException
 	{
 		char data[] = new char[128];
-		FileReader fr = new FileReader("C:\\Users\\eiei\\Desktop\\1\\donkey");
+		FileReader fr = new FileReader("C:\\Users\\eiei\\Desktop\\1\\donkey.txt");
 		
 		
 		int num = fr.read(data);
